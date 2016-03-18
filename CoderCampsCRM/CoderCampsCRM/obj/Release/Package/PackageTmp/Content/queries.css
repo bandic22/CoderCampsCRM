@@ -1,0 +1,879 @@
+/*Big Tablets to 1200px (widths smaller than the 1140px row in our website)*/
+@media only screen and (max-width: 1200px) {
+
+    section.jumbotron {
+        background-attachment: scroll;
+        min-height: 100vh;
+    }
+
+    .home_button_wrap {
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    .heading-wrap h2, .heading-wrap h3 {
+        font-weight: 100;
+    }
+
+    .navbar-nav li a {
+        padding-right: 10px;
+    }
+
+    body .fullWrapper .week {
+        width: 100%;
+        padding: 10px;
+    }
+
+        body .fullWrapper .week .dayWrapper [ng-drag].english {
+            width: 96%;
+        }
+
+            body .fullWrapper .week .dayWrapper [ng-drag].english .deal-cat,
+            body .fullWrapper .week .dayWrapper [ng-drag].english p {
+                font-size: 12px;
+            }
+
+    .text_wrap, .button_main_wrap {
+        padding: 0 !important;
+    }
+
+    .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .details_head {
+        margin-bottom: 30px;
+    }
+
+    .contact_table_wrap {
+        padding: 0;
+    }
+
+        .contact_table_wrap table td, .contact_table_wrap table th {
+            padding: 8px 4px !important;
+        }
+
+    td.delete_x {
+        padding: 8px 0 !important;
+    }
+
+    .pagination_wrap {
+        width: 30%;
+    }
+
+    .items_per_page_wrap_wrap {
+        width: 50%;
+    }
+
+    #contactBtnGroup {
+        width: 400px;
+    }
+
+    .contact_left_wrap {
+        margin-left: 10px;
+        width: 40%;
+        display: inline-block;
+    }
+
+    .companies-search-wrap {
+        margin-bottom: 20px;
+    }
+
+    #bannertaskstop {
+        margin: 0;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .wrap_table_wrap {
+        padding: 0 0 20px 0 !important;
+        overflow-y: hidden;
+    }
+
+    table.mine {
+        width: 1040px;
+    }
+
+    .not-started-wrap, .in-progress-wrap, .completed-wrap {
+        width: 80%;
+        margin: auto;
+        float: none;
+    }
+
+    .task-progress-wrap h3 {
+        text-align: center;
+    }
+
+    table.tasktable {
+        margin: auto;
+    }
+
+    #sidebar-wrapper {
+        min-height: 300px;
+    }
+
+    .task-content-wrap {
+        padding: 0 !important;
+    }
+
+    .container-fluid {
+        padding: 0 !important;
+    }
+
+    .task-progress-wrap {
+        padding: 20px 0 80px 0;
+    }
+
+    .dashboard-wrap {
+        padding: 10px;
+    }
+
+    .icon-wrap {
+        font-size: 17px;
+    }
+
+    .dashboard-activity-wrap {
+        padding-left: 10px;
+    }
+
+        .dashboard-activity-wrap table td {
+            font-size: 14px;
+        }
+
+    .weighted-wrap {
+        margin-left: 5%;
+        width: 30%;
+    }
+
+    .quota-wrap {
+        width: 30%;
+    }
+
+    .set-quota-wrap {
+        width: 35%;
+    }
+
+    .dashboard-wrap a:hover, .dashboard-wrap a:active {
+        color: #a10001;
+        text-decoration: none;
+    }
+}
+
+/* Small Tablet to Big Tablet: 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+    .contact_right_wrap {
+        width: 55%;
+        display: inline-block;
+        float: right;
+    }
+
+    .contacts_table {
+        width: 100% !important;
+    }
+
+    #contactBtnGroup, #contactUiRouteWrap {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    input.form-control {
+        max-width: 100%;
+    }
+
+    button.btn {
+        margin-bottom: 16px;
+    }
+
+    .heading-wrap h2 {
+        margin-bottom: 80px;
+    }
+
+
+
+    /*---------------Deals-----------------*/
+    .list-view-button-wrap {
+        text-align: center;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .view_search {
+        margin-bottom: 0;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+        .search-bar input {
+            width: 60%;
+            margin: 10px auto;
+        }
+
+    .add-deal-button-wrap {
+        text-align: center;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .my_pages, .my_items {
+        text-align: center;
+    }
+
+    .my_items {
+        margin-bottom: 30px;
+    }
+
+    .add-deal-button-wrap button {
+        width: 300px;
+        font-size: 24px;
+    }
+
+    .navbar-text {
+        display: none;
+    }
+
+    .fullWrapper-wrap {
+        overflow-y: hidden;
+    }
+
+    .fullWrapper {
+        width: 1040px;
+    }
+
+    .toggled#sidebar-wrapper {
+        display: none;
+    }
+
+    #wrapper.toggled, #sidebar-wrapper {
+        width: 100% !important;
+        z-index: auto;
+        position: relative;
+        left: 0;
+        margin-left: 0;
+        padding: 0 0 20px 0;
+        text-align: center;
+    }
+
+    #wrapper {
+        padding-left: 0 !important;
+    }
+
+    .toggle-responsive-filter {
+        display: inline-block;
+    }
+
+    .displayedFilterHide {
+        display: none;
+    }
+
+    .min_amount, .max_amount {
+        padding: 0;
+    }
+
+    #sidebar-wrapper select.date-filter, #sidebar-wrapper select.stage-filter, #sidebar-wrapper input.amount_input, #sidebar-wrapper select.country-filter, #sidebar-wrapper select.city-filter, #sidebar-wrapper select.state-filter, #sidebar-wrapper select.industry-filter {
+        max-width: 100%;
+        width: 60%;
+        margin: auto;
+    }
+
+    .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    #page-content-wrapper {
+        padding: 20px 0;
+    }
+
+    .container-fluid {
+        padding: 0;
+    }
+
+    .col-md-12 {
+        padding: 5px;
+    }
+
+    .details_head {
+        text-align: center;
+        margin-bottom: 40px !important;
+    }
+
+    .head_currency, .head_close_date {
+        display: none;
+    }
+
+    .contact_table_wrap table th {
+        font-size: 12px;
+    }
+
+    .contact_table_wrap table td {
+        font-size: 12px;
+    }
+
+    .text_wrap {
+        width: 100%;
+    }
+
+    .activity_button_wrap {
+        width: 100%;
+    }
+
+    .activity_date_wrap, .activity_time_wrap {
+        margin-top: 20px;
+        width: 48%;
+        float: left;
+        padding-left: 0;
+    }
+
+    .activity_content_wrap, .note_content_wrap {
+        padding: 0;
+    }
+
+    .task_end_date, .task_start_date, .task_status, .task_type, .task_assign {
+        padding-left: 0;
+    }
+
+    .task_start_date, .task_end_date, .task_status {
+        width: 33%;
+        float: left;
+        margin-bottom: 5px;
+    }
+
+    .task_type, .task_assign {
+        width: 33%;
+        float: left;
+    }
+
+    .task_content {
+        padding: 0;
+    }
+
+    .log_item_wrap {
+        width: 100%;
+    }
+
+    .log_item_wrap_wrap {
+        padding: 0;
+    }
+
+    .filterSideBarContent {
+        margin: auto;
+    }
+
+    .filter_button {
+        display: none;
+    }
+
+    .pagination_wrap, .items_per_page_wrap_wrap {
+        margin: auto;
+        width: 30%;
+    }
+
+    ul.list-bar li {
+        width: 13%;
+    }
+
+    .status {
+        width: 400px;
+        font-size: 12px;
+    }
+
+    .items_per_page_wrap {
+        float: none;
+        text-align: center;
+    }
+
+    select#itemsPerPage {
+        margin: auto;
+    }
+
+    .contacts_table_wrap {
+        overflow-y: hidden;
+    }
+
+    .angular-google-map-container {
+        width: 500px;
+        height: 300px;
+    }
+
+    #filterBtn {
+        width: 300px;
+    }
+
+    .navbar-nav {
+        font-size: 12px;
+    }
+
+    #menu-toggle {
+        margin-bottom: 16px;
+    }
+
+    #searchBar {
+        width: 80%;
+        margin: auto;
+    }
+
+    .wrap_table_wrap {
+        overflow-y: hidden;
+    }
+
+    .sidebar-nav {
+        margin: auto;
+        position: relative;
+    }
+
+        .sidebar-nav li {
+            text-indent: 0;
+        }
+
+    #bannertaskstop {
+        padding-bottom: 20px;
+    }
+
+    .search-form .form-group {
+        float: none !important;
+        width: 32px;
+        margin: auto !important;
+    }
+
+    .dashboard-wrap {
+        padding: 20px;
+    }
+
+    .icon-wrap {
+        font-size: 17px;
+        width: 24%;
+        display: inline-block;
+    }
+
+    .icon-wrap-two {
+        font-size: 17px;
+        width: 24%;
+        display: inline-block;
+    }
+
+    .all-icons-wrap {
+        padding-bottom: 40px;
+    }
+
+    .dashboard-activity-wrap {
+        width: 96%;
+        margin: auto;
+    }
+
+        .dashboard-activity-wrap table td {
+            font-size: 18px;
+        }
+
+    .weight-wrap h4, .quote-wrap h4 {
+        font-size: 16px;
+    }
+
+    span.quota_count {
+        font-size: 16px;
+    }
+
+    .weighted-wrap, .quota-wrap {
+        margin-left: 0;
+        width: 40%;
+        display: inline-block;
+    }
+
+    .set-quota-wrap {
+        display: inline-block;
+    }
+}
+
+/* All phones and tablets smaller than ipad: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+
+    .contact_left_wrap {
+        display: block;
+        width: 100%;
+    }
+
+    .contact_right_wrap {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    .angular-google-map-container {
+        width: 400px !important;
+        height: 300px !important;
+    }
+
+    section.jumbotron {
+        padding: 10px 5px 10px 5px !important;
+    }
+
+    .heading-wrap h2 {
+        font-size: 24px;
+    }
+
+    .heading-wrap h3 {
+        font-size: 19px;
+    }
+
+    .home_button_wrap {
+        margin-top: 70px;
+    }
+
+    /*---------------Deals-----------------*/
+
+    .table_wrap {
+        overflow-y: hidden;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .deals_table {
+        max-width: 300%;
+        width: 1040px;
+    }
+
+        .deals_table th.deal_name, .deals_table th.deal_stage, .deals_table th.deal_owner, .deals_table th.company {
+            max-width: 200px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .deals_table th.close_date, .deals_table th.amount {
+            max-width: 100px;
+            width: 150px;
+            text-align: center;
+        }
+
+        .deals_table th.check_box {
+            width: 40px;
+        }
+
+     .status-last{
+         right: 50px;
+         width: 100px !important;
+     }
+    .status {
+        right: 20px;
+        width: 150px;
+        font-size: 10px;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    .task_type, .task_assign {
+        width: 50%;
+    }
+
+    .hide_map_wrap, .map_wrap {
+        display: none;
+    }
+
+    .pagination_wrap {
+        width: 80%;
+    }
+
+    .items_per_page_wrap_wrap {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .dashboard-icon {
+        display: inline-block;
+        width: 100px;
+    }
+
+    .total-display {
+        display: inline-block;
+        margin-left: 20px;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .total-display-two {
+        display: inline-block;
+        margin-left: 20px;
+        position: relative;
+        bottom: 7px;
+        font-size: 20px;
+    }
+
+    .icon-wrap {
+        font-size: 17px;
+        width: 100%;
+        display: block;
+        border-right: none;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .icon-wrap-two {
+        width: 100%;
+        display: block;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .weighted-wrap, .quota-wrap {
+        margin-left: 0;
+        margin-top: 30px;
+        width: 100%;
+        display: block;
+    }
+
+    .set-quota-wrap {
+        display: block;
+        width: 100%;
+    }
+
+    .dashboard-activity-wrap table td {
+        font-size: 15px;
+    }
+}
+
+/* Small phones from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+    #filterBtn {
+        width: 200px;
+    }
+
+    section#jumbotron {
+        padding: 5px !important;
+    }
+
+    .heading-wrap h1 {
+        font-size: 30px;
+    }
+
+    .heading-wrap h2 {
+        font-size: 19px;
+        margin-bottom: 30px;
+    }
+
+    .heading-wrap h3 {
+        margin-top: 0;
+    }
+
+    .angular-google-map {
+        overflow-y: hidden;
+    }
+
+    .angular-google-map-container {
+        width: 500px !important;
+        height: 300px !important;
+    }
+
+    .home_button_wrap {
+        margin-top: 100px;
+    }
+
+    .probability-bar, .probability-bar-empty, .probability-bar-lost{
+        height: 10px;
+    }
+    .list-bar li{
+        margin-top: 21px;
+    }
+    .status {
+        position: absolute;
+        font-size: 12px;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    button.join {
+        margin-bottom: 20px;
+    }
+
+    li.btn a {
+        width: 90%;
+    }
+
+    .table_wrap {
+        overflow-y: hidden;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 0;
+    }
+
+    .btn-group {
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    .search-bar {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    input.form-control {
+        width: 100%;
+    }
+
+    .add-deal-button-wrap button {
+        font-size: 16px;
+        width: 150px;
+    }
+
+    .my_pages, .my_items {
+        font-size: 11px;
+    }
+
+    .container-fluid {
+        padding: 0;
+    }
+
+    .btn-group-inner-wrap {
+        width: 100%;
+    }
+
+    .head_deal_name h1 {
+        font-size: 24px;
+    }
+
+    .about_deal_table_wrap table th, .about_company_table_wrap table th {
+        font-size: 20px;
+    }
+
+    .about_deal_table_wrap table td, .about_company_table_wrap table td {
+        font-size: 12px;
+    }
+
+    .contact_table_wrap {
+        padding: 0;
+    }
+
+    .table_scroll_wrap {
+        overflow-y: hidden;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+        .table_scroll_wrap table {
+            width: 400px;
+            max-width: 200%;
+        }
+
+    .left_wrap, .right_wrap {
+        padding: 0;
+    }
+
+    .contact_table_wrap table th {
+    }
+
+    .contact_table_wrap table td {
+    }
+
+    .contact_to_add {
+        width: 90%;
+    }
+
+    .activity_button_wrap {
+        width: 100%;
+        padding-left: 5px;
+    }
+
+        .activity_button_wrap a {
+            font-size: 10px;
+            padding: 5px;
+        }
+
+    .button_main_wrap {
+        padding-left: 4px;
+        padding-right: 0;
+    }
+
+    .log_item_wrap {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 11px;
+    }
+
+    table.activity td {
+        width: 50%;
+    }
+
+    .task_start_date, .task_end_date, .task_status, .task_type, .task_assign, .activity_date_wrap, .activity_time_wrap {
+        width: 100%;
+        padding-left: 5px;
+    }
+
+    .task_content, .activity_content_wrap, .note_content_wrap {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .not-started-wrap, .in-progress-wrap, .completed-wrap {
+        width: 100%;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .task-progress-wrap h3 {
+        font-size: 20px;
+    }
+
+    .panel-title {
+        font-size: 12px;
+    }
+
+    .tasktable {
+        width: 100%;
+    }
+
+    .dashboard-wrap {
+        padding: 5px;
+    }
+
+    .icon-wrap {
+        margin-left: 5px;
+    }
+
+    .dashboard-icon {
+        display: inline-block;
+        font-size: 40px;
+        width: 40px;
+    }
+
+    .total-display {
+        margin-left: 10px;
+        bottom: 14px;
+    }
+
+    .total-display-two {
+        font-size: 15px;
+    }
+
+    .all-icons-wrap, .progress-wrap, .productivity-wrap {
+        padding: 10px;
+    }
+
+    .dashboard-activity-wrap {
+        margin-top: 40px;
+        padding: 5px;
+    }
+
+    .all-icons-wrap h2, .progress-wrap h2, .productivity-wrap h2 {
+        text-align: center;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .dashboard-activity-wrap table td {
+        font-size: 12px;
+    }
+
+    span.date_time {
+        font-size: 10px;
+    }
+}
